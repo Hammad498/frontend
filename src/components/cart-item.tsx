@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 type CartItemProps = {
     cartItem:any;
 }
-
+//asdf
 const CartItem = ({cartItem}: CartItemProps) => {
 
     const {productId, name, photo, price, quantity} = cartItem
